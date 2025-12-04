@@ -107,7 +107,6 @@ def main(args: argparse.Namespace):
         envs=args.env_files,
         suffix=args.suffix,
     )
-
     print(f"[INFO] Using container profile: {ci.profile}")
     if args.command == "start":
         # check if x11 forwarding is enabled
