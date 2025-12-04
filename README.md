@@ -44,3 +44,8 @@ docker import isaac-lab-base\:v2.tar - isaac-lab-base:v2
 # We pass 'base' explicitly, but if we hadn't it would default to 'base'
 ./docker/container.py enter
 ```
+
+After enter the container
+```bash
+#follow the installation and manual from https://github.com/rocochallenge/gearboxAssembly.git
+```
