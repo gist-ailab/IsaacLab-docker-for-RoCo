@@ -50,4 +50,7 @@ docker import isaac-lab-base\:v2.tar - isaac-lab-base:v2
 After enter the container
 ```bash
 #follow the installation and manual from https://github.com/rocochallenge/gearboxAssembly.git
+
+# IF you have trouble in using git lfs, use the zip file from here
+cp /ailab_mat/personal/yeonguk_yu/gearboxAssembly.zip
 ```
