@@ -8,6 +8,8 @@ Host demo-com-raeyo
     User demo-raeyo
     ForwardX11 yes
     ForwardX11Trusted yes
+# or
+export DISPLAY=:1
 
 # First, clone the repository
 git clone https://github.com/gist-ailab/IsaacLab-docker-for-RoCo.git
